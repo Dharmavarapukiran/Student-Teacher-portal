@@ -1,0 +1,95 @@
+/* Container */
+.StudentListContainer {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.StudentListTitle {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+/* Table Styling */
+.StudentTable {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.StudentTable thead {
+  background-color: #3f51b5;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.StudentTable th, .StudentTable td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.StudentTable tbody tr:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+
+.noData {
+  text-align: center;
+  padding: 25px;
+  color: #666;
+  font-style: italic;
+}
+
+/* Approved column styles */
+.approved {
+  color: green;
+  font-weight: 600;
+}
+
+.notApproved {
+  color: red;
+  font-weight: 600;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 14px;
+  margin-right: 8px;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  font-size: 0.9rem;
+}
+
+.approveBtn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.approveBtn:hover {
+  background-color: #388e3c;
+}
+
+.deleteBtn {
+  background-color: #f44336;
+  color: white;
+}
+
+.deleteBtn:hover {
+  background-color: #d32f2f;
+}
