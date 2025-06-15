@@ -54,11 +54,16 @@ button:nth-child(1) { /* Approve button */
 }
 
 button:nth-child(2) { /* Delete button */
-  background-color: #c0392b;
+  background-color: rgb(189, 189, 99);
   color: white;
 }
 
 .TeacherList input{
     padding: 7px;
     outline: none;
+}
+
+.deleteBtn {
+  background-color: #c0392b;
+  color: white;
 }
